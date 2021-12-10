@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header h2 {
+  background-color: blueviolet;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+}
+
+#app {
+  margin: 20px;
+}
+
+button {
+  padding: 5px 11px;
+  margin: 5px;
+}
+
+.active {
+  background-color: rgb(3, 78, 97);
+  color: #fff;
+  border: 1px solid rgb(3, 78, 97);
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.red {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+}
+
+.green {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+}
+
+.blue {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+}
