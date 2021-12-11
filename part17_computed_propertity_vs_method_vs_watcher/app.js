@@ -10,9 +10,9 @@ var app = Vue.createApp({
   },
 
   computed: {
-    // fullName() {
-    //   return this.name.firstName + " " + this.name.lastName;
-    // },
+    fullName() {
+      return this.name.firstName + " " + this.name.lastName;
+    },
   },
   methods: {
     // fullName1() {
@@ -20,12 +20,12 @@ var app = Vue.createApp({
     // },
   },
   watch: {
-    "name.firstName": function (newValue) {
-      this.name.fullName = newValue + " " + this.name.lastName;
-    },
-    "name.lastName": function (newValue) {
-      this.name.fullName = this.name.firstName + " " + newValue;
-    },
+    // "name.firstName": function (newValue) {
+    //   this.name.fullName = newValue + " " + this.name.lastName;
+    // },
+    // "name.lastName": function (newValue) {
+    //   this.name.fullName = this.name.firstName + " " + newValue;
+    // },
   },
 });
 
